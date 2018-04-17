@@ -1,0 +1,28 @@
+{
+  "name": "knittr-be",
+  "version": "1.0.0",
+  "description": "Back end for Knittr app",
+  "main": "index.js",
+  "dependencies": {
+    "express": "^4.16.3",
+    "mongoose": "^5.0.15"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "test",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Edwards80/Knittr-BE.git"
+  },
+  "keywords": [
+    "knittr"
+  ],
+  "author": "Scott Edwards",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Edwards80/Knittr-BE/issues"
+  },
+  "homepage": "https://github.com/Edwards80/Knittr-BE#readme"
+}
