@@ -18,7 +18,8 @@ function seedDB(dbUrl) {
           .save()
           .then(() => {
             mongoose.disconnect();
-          });
+          })
+          .catch(console.log);
       });
     });
 }
