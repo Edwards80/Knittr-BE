@@ -5,7 +5,7 @@ const router = express.Router();
 
 router.get('/', patternsController.fetchAll);
 
-router.use('/:pattern_id', patternsController.fetchPattern)
+router.use('/:pattern_id', patternsController.fetchPattern);
 
 
 module.exports = router;

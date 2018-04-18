@@ -4,6 +4,6 @@ const patternsRoute = require('./patterns.route');
 
 const router = express.Router();
 
-router.use('/patterns', patternsRoute)
+router.use('/patterns', patternsRoute);
 
-module.exports = router
+module.exports = router;
