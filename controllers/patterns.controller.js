@@ -14,5 +14,10 @@ module.exports = {
       .then(pattern => {
         res.send(pattern);
       });
+  },
+
+  updateStitch(req, res) {
+    res.send();
   }
+
 };
