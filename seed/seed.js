@@ -15,7 +15,10 @@ function seedDB(dbUrl) {
     .then(() => {
       patternsData.map((pattern) => {
         new Pattern(pattern)
-          .save();
+          .save()
+          .then(() => {
+            mongoose.disconnect();
+          });
       });
     });
 }

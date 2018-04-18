@@ -1,11 +1,18 @@
+const patterns = require('../models/patterns');
+
 module.exports = {
   fetchAll(req, res) {
-    console.log('this will fetch all the patterns');
-    res.sendStatus(200);        
+    patterns.find()
+      .then(patterns => {
+        res.send(patterns);
+      });
   },
 
   fetchPattern(req, res) {
-    console.log('this will fetch an individual pattern ' + req.params.pattern_id);
-    res.sendStatus(200);
+    const patternId = req.params.pattern_id;
+    patterns.findById(patternId)
+      .then(pattern => {
+        res.send(pattern);
+      });
   }
 };
