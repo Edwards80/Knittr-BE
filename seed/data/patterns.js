@@ -4,6 +4,7 @@ const patterns = [{
   'style': 'Basic',
   'author': 'Amy Edwards',
   'created_at': 10000000,
+  'description' : 'Here is a description of this pattern',
   'pattern': [
     ['p', 'p', 'p', 'p', 'p', 'p', 'p', 'p', 'p', 'p', 'k'],
     ['p', 'p', 'p', 'p', 'p', 'p', 'p', 'p', 'p', 'k', 'p'],
@@ -24,6 +25,7 @@ const patterns = [{
   'style': 'Basic',
   'author': 'Scott Edwards',
   'created_at': 10050000,
+  'description' : 'Here is another description of a pattern',
   'pattern': [
     ['p', 'p', 'p', 'p', 'p', 'p', 'p', 'p', 'p', 'p', 'k'],
     ['p', 'p', 'p', 'p', 'p', 'p', 'p', 'p', 'p', 'k', 'p'],
@@ -46,9 +48,10 @@ const patterns = [{
 {
   'title': 'It is wool',
   'difficulty': 'Easy',
-  'style': 'Basic',
+  'style': 'wooly',
   'author': 'Scott Edwards',
   'created_at': 10060000,
+  'description' : 'Some words are here',  
   'pattern': [
     ['p', 'p', 'p', 'p', 'p', 'p', 'p', 'p', 'p', 'p', 'k'],
     ['p', 'p', 'p', 'p', 'p', 'p', 'p', 'p', 'p', 'k', 'p'],
@@ -71,9 +74,10 @@ const patterns = [{
 {
   'title': 'A geometric shaped piece of wool',
   'difficulty': 'Easy',
-  'style': 'Basic',
+  'style': 'fair isle',
   'author': 'Scott Edwards',
   'created_at': 10070000,
+  'description' : 'More description!',  
   'pattern': [
     ['p', 'p', 'p', 'p', 'p', 'p', 'p', 'p', 'p', 'p', 'k'],
     ['p', 'p', 'p', 'p', 'p', 'p', 'p', 'p', 'p', 'k', 'p'],

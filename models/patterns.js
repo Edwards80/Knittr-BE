@@ -6,6 +6,7 @@ const patternSchema = new Schema({
   difficulty: String,
   style: String,
   author: String,
+  description: String,
   created_at: Number,
   pattern: Object,
 });

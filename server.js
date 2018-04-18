@@ -3,7 +3,6 @@ const app = require('./index');
 const port = 5000;
 const mongoose = require('mongoose');
 
-
 mongoose.Promise = Promise;
 
 app.listen(port, (err) => {
