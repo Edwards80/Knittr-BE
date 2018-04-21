@@ -17,7 +17,7 @@ const patterns = [{
       { stitchType: 'p', colour: '#ff0000' },
       { stitchType: 'p', colour: '#ff0000' },
       { stitchType: 'p', colour: '#ff0000' },
-      { stitchType: 'k', colour: '#000000' }
+      { stitchType: 'k', colour: '#ff0000' }
     ],
     [
       { stitchType: 'p', colour: '#ff0000' },
@@ -30,7 +30,7 @@ const patterns = [{
       { stitchType: 'p', colour: '#ff0000' },
       { stitchType: 'p', colour: '#ff0000' },
       { stitchType: 'p', colour: '#ff0000' },
-      { stitchType: 'k', colour: '#000000' }
+      { stitchType: 'k', colour: '#ff0000' }
     ],
     [
       { stitchType: 'p', colour: '#ff0000' },
@@ -43,7 +43,7 @@ const patterns = [{
       { stitchType: 'p', colour: '#ff0000' },
       { stitchType: 'p', colour: '#ff0000' },
       { stitchType: 'p', colour: '#ff0000' },
-      { stitchType: 'k', colour: '#000000' }
+      { stitchType: 'k', colour: '#ff0000' }
     ],
     [
       { stitchType: 'p', colour: '#ff0000' },
@@ -56,7 +56,7 @@ const patterns = [{
       { stitchType: 'p', colour: '#ff0000' },
       { stitchType: 'p', colour: '#ff0000' },
       { stitchType: 'p', colour: '#ff0000' },
-      { stitchType: 'k', colour: '#000000' }
+      { stitchType: 'k', colour: '#ff0000' }
     ],
     [
       { stitchType: 'p', colour: '#ff0000' },
@@ -69,7 +69,7 @@ const patterns = [{
       { stitchType: 'p', colour: '#ff0000' },
       { stitchType: 'p', colour: '#ff0000' },
       { stitchType: 'p', colour: '#ff0000' },
-      { stitchType: 'k', colour: '#000000' }
+      { stitchType: 'k', colour: '#ff0000' }
     ],
     [
       { stitchType: 'p', colour: '#ff0000' },
@@ -82,7 +82,7 @@ const patterns = [{
       { stitchType: 'p', colour: '#ff0000' },
       { stitchType: 'p', colour: '#ff0000' },
       { stitchType: 'p', colour: '#ff0000' },
-      { stitchType: 'k', colour: '#000000' }
+      { stitchType: 'k', colour: '#ff0000' }
     ],
     [
       { stitchType: 'p', colour: '#ff0000' },
@@ -95,7 +95,7 @@ const patterns = [{
       { stitchType: 'p', colour: '#ff0000' },
       { stitchType: 'p', colour: '#ff0000' },
       { stitchType: 'p', colour: '#ff0000' },
-      { stitchType: 'k', colour: '#000000' }
+      { stitchType: 'k', colour: '#ff0000' }
     ],
     [
       { stitchType: 'p', colour: '#ff0000' },
@@ -108,7 +108,7 @@ const patterns = [{
       { stitchType: 'p', colour: '#ff0000' },
       { stitchType: 'p', colour: '#ff0000' },
       { stitchType: 'p', colour: '#ff0000' },
-      { stitchType: 'k', colour: '#000000' }
+      { stitchType: 'k', colour: '#ff0000' }
     ]
   ]
 },
@@ -130,7 +130,7 @@ const patterns = [{
     { stitchType: 'p', colour: '#ff0000' },
     { stitchType: 'p', colour: '#ff0000' },
     { stitchType: 'p', colour: '#ff0000' },
-    { stitchType: 'k', colour: '#000000' }
+    { stitchType: 'k', colour: '#ff0000' }
   ],
   [
     { stitchType: 'p', colour: '#ff0000' },
@@ -143,7 +143,7 @@ const patterns = [{
     { stitchType: 'p', colour: '#ff0000' },
     { stitchType: 'p', colour: '#ff0000' },
     { stitchType: 'p', colour: '#ff0000' },
-    { stitchType: 'k', colour: '#000000' }
+    { stitchType: 'k', colour: '#ff0000' }
   ],
   [
     { stitchType: 'p', colour: '#ff0000' },
@@ -156,7 +156,7 @@ const patterns = [{
     { stitchType: 'p', colour: '#ff0000' },
     { stitchType: 'p', colour: '#ff0000' },
     { stitchType: 'p', colour: '#ff0000' },
-    { stitchType: 'k', colour: '#000000' }
+    { stitchType: 'k', colour: '#ff0000' }
   ],
   [
     { stitchType: 'p', colour: '#ff0000' },
@@ -169,7 +169,7 @@ const patterns = [{
     { stitchType: 'p', colour: '#ff0000' },
     { stitchType: 'p', colour: '#ff0000' },
     { stitchType: 'p', colour: '#ff0000' },
-    { stitchType: 'k', colour: '#000000' }
+    { stitchType: 'k', colour: '#ff0000' }
   ],
   [
     { stitchType: 'p', colour: '#ff0000' },
@@ -182,7 +182,7 @@ const patterns = [{
     { stitchType: 'p', colour: '#ff0000' },
     { stitchType: 'p', colour: '#ff0000' },
     { stitchType: 'p', colour: '#ff0000' },
-    { stitchType: 'k', colour: '#000000' }
+    { stitchType: 'k', colour: '#ff0000' }
   ],
   [
     { stitchType: 'p', colour: '#ff0000' },
@@ -195,7 +195,7 @@ const patterns = [{
     { stitchType: 'p', colour: '#ff0000' },
     { stitchType: 'p', colour: '#ff0000' },
     { stitchType: 'p', colour: '#ff0000' },
-    { stitchType: 'k', colour: '#000000' }
+    { stitchType: 'k', colour: '#ff0000' }
   ],
   [
     { stitchType: 'p', colour: '#ff0000' },
@@ -208,7 +208,7 @@ const patterns = [{
     { stitchType: 'p', colour: '#ff0000' },
     { stitchType: 'p', colour: '#ff0000' },
     { stitchType: 'p', colour: '#ff0000' },
-    { stitchType: 'k', colour: '#000000' }
+    { stitchType: 'k', colour: '#ff0000' }
   ],
   [
     { stitchType: 'p', colour: '#ff0000' },
@@ -221,7 +221,7 @@ const patterns = [{
     { stitchType: 'p', colour: '#ff0000' },
     { stitchType: 'p', colour: '#ff0000' },
     { stitchType: 'p', colour: '#ff0000' },
-    { stitchType: 'k', colour: '#000000' }
+    { stitchType: 'k', colour: '#ff0000' }
   ]
   ]
 },
@@ -244,7 +244,7 @@ const patterns = [{
       { stitchType: 'p', colour: '#ff0000' },
       { stitchType: 'p', colour: '#ff0000' },
       { stitchType: 'p', colour: '#ff0000' },
-      { stitchType: 'k', colour: '#000000' }
+      { stitchType: 'k', colour: '#ff0000' }
     ],
     [
       { stitchType: 'p', colour: '#ff0000' },
@@ -257,7 +257,7 @@ const patterns = [{
       { stitchType: 'p', colour: '#ff0000' },
       { stitchType: 'p', colour: '#ff0000' },
       { stitchType: 'p', colour: '#ff0000' },
-      { stitchType: 'k', colour: '#000000' }
+      { stitchType: 'k', colour: '#ff0000' }
     ],
     [
       { stitchType: 'p', colour: '#ff0000' },
@@ -270,7 +270,7 @@ const patterns = [{
       { stitchType: 'p', colour: '#ff0000' },
       { stitchType: 'p', colour: '#ff0000' },
       { stitchType: 'p', colour: '#ff0000' },
-      { stitchType: 'k', colour: '#000000' }
+      { stitchType: 'k', colour: '#ff0000' }
     ],
     [
       { stitchType: 'p', colour: '#ff0000' },
@@ -283,7 +283,7 @@ const patterns = [{
       { stitchType: 'p', colour: '#ff0000' },
       { stitchType: 'p', colour: '#ff0000' },
       { stitchType: 'p', colour: '#ff0000' },
-      { stitchType: 'k', colour: '#000000' }
+      { stitchType: 'k', colour: '#ff0000' }
     ],
     [
       { stitchType: 'p', colour: '#ff0000' },
@@ -296,7 +296,7 @@ const patterns = [{
       { stitchType: 'p', colour: '#ff0000' },
       { stitchType: 'p', colour: '#ff0000' },
       { stitchType: 'p', colour: '#ff0000' },
-      { stitchType: 'k', colour: '#000000' }
+      { stitchType: 'k', colour: '#ff0000' }
     ],
     [
       { stitchType: 'p', colour: '#ff0000' },
@@ -309,7 +309,7 @@ const patterns = [{
       { stitchType: 'p', colour: '#ff0000' },
       { stitchType: 'p', colour: '#ff0000' },
       { stitchType: 'p', colour: '#ff0000' },
-      { stitchType: 'k', colour: '#000000' }
+      { stitchType: 'k', colour: '#ff0000' }
     ],
     [
       { stitchType: 'p', colour: '#ff0000' },
@@ -322,7 +322,7 @@ const patterns = [{
       { stitchType: 'p', colour: '#ff0000' },
       { stitchType: 'p', colour: '#ff0000' },
       { stitchType: 'p', colour: '#ff0000' },
-      { stitchType: 'k', colour: '#000000' }
+      { stitchType: 'k', colour: '#ff0000' }
     ],
     [
       { stitchType: 'p', colour: '#ff0000' },
@@ -335,7 +335,7 @@ const patterns = [{
       { stitchType: 'p', colour: '#ff0000' },
       { stitchType: 'p', colour: '#ff0000' },
       { stitchType: 'p', colour: '#ff0000' },
-      { stitchType: 'k', colour: '#000000' }
+      { stitchType: 'k', colour: '#ff0000' }
     ]
   ]
 },
@@ -357,7 +357,7 @@ const patterns = [{
     { stitchType: 'p', colour: '#ff0000' },
     { stitchType: 'p', colour: '#ff0000' },
     { stitchType: 'p', colour: '#ff0000' },
-    { stitchType: 'k', colour: '#000000' }
+    { stitchType: 'k', colour: '#ff0000' }
   ],
   [
     { stitchType: 'p', colour: '#ff0000' },
@@ -370,7 +370,7 @@ const patterns = [{
     { stitchType: 'p', colour: '#ff0000' },
     { stitchType: 'p', colour: '#ff0000' },
     { stitchType: 'p', colour: '#ff0000' },
-    { stitchType: 'k', colour: '#000000' }
+    { stitchType: 'k', colour: '#ff0000' }
   ],
   [
     { stitchType: 'p', colour: '#ff0000' },
@@ -383,7 +383,7 @@ const patterns = [{
     { stitchType: 'p', colour: '#ff0000' },
     { stitchType: 'p', colour: '#ff0000' },
     { stitchType: 'p', colour: '#ff0000' },
-    { stitchType: 'k', colour: '#000000' }
+    { stitchType: 'k', colour: '#ff0000' }
   ],
   [
     { stitchType: 'p', colour: '#ff0000' },
@@ -396,7 +396,7 @@ const patterns = [{
     { stitchType: 'p', colour: '#ff0000' },
     { stitchType: 'p', colour: '#ff0000' },
     { stitchType: 'p', colour: '#ff0000' },
-    { stitchType: 'k', colour: '#000000' }
+    { stitchType: 'k', colour: '#ff0000' }
   ],
   [
     { stitchType: 'p', colour: '#ff0000' },
@@ -409,7 +409,7 @@ const patterns = [{
     { stitchType: 'p', colour: '#ff0000' },
     { stitchType: 'p', colour: '#ff0000' },
     { stitchType: 'p', colour: '#ff0000' },
-    { stitchType: 'k', colour: '#000000' }
+    { stitchType: 'k', colour: '#ff0000' }
   ],
   [
     { stitchType: 'p', colour: '#ff0000' },
@@ -422,7 +422,7 @@ const patterns = [{
     { stitchType: 'p', colour: '#ff0000' },
     { stitchType: 'p', colour: '#ff0000' },
     { stitchType: 'p', colour: '#ff0000' },
-    { stitchType: 'k', colour: '#000000' }
+    { stitchType: 'k', colour: '#ff0000' }
   ],
   [
     { stitchType: 'p', colour: '#ff0000' },
@@ -435,7 +435,7 @@ const patterns = [{
     { stitchType: 'p', colour: '#ff0000' },
     { stitchType: 'p', colour: '#ff0000' },
     { stitchType: 'p', colour: '#ff0000' },
-    { stitchType: 'k', colour: '#000000' }
+    { stitchType: 'k', colour: '#ff0000' }
   ],
   [
     { stitchType: 'p', colour: '#ff0000' },
@@ -448,7 +448,7 @@ const patterns = [{
     { stitchType: 'p', colour: '#ff0000' },
     { stitchType: 'p', colour: '#ff0000' },
     { stitchType: 'p', colour: '#ff0000' },
-    { stitchType: 'k', colour: '#000000' }
+    { stitchType: 'k', colour: '#ff0000' }
   ]
   ]
 }
