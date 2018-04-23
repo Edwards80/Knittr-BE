@@ -9,4 +9,6 @@ router.use('/:pattern_id', patternsController.fetchPattern);
 
 router.put('/:pattern_id/:stitch', patternsController.updateStitch);
 
+router.post('/', patternsController.submitPattern)
+
 module.exports = router;

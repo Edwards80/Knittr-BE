@@ -3,7 +3,7 @@ const patterns = [{
   'difficulty': 'Easy',
   'style': 'Basic',
   'author': 'Amy Edwards',
-  'created_at': 10000000,
+  'created_at': new Date().getTime(),
   'description': 'Here is a description of this pattern',
   'pattern': [
     [
@@ -117,7 +117,7 @@ const patterns = [{
   'difficulty': 'Easy',
   'style': 'Basic',
   'author': 'Scott Edwards',
-  'created_at': 10050000,
+  'created_at': new Date().getTime(),
   'description': 'Here is another description of a pattern',
   'pattern': [ [
     { stitchType: 'p', colour: '#ff0000' },
@@ -230,7 +230,7 @@ const patterns = [{
   'difficulty': 'Easy',
   'style': 'wooly',
   'author': 'Scott Edwards',
-  'created_at': 10060000,
+  'created_at': new Date().getTime(),
   'description': 'Some words are here',
   'pattern': [
     [
@@ -344,7 +344,7 @@ const patterns = [{
   'difficulty': 'Easy',
   'style': 'fair isle',
   'author': 'Scott Edwards',
-  'created_at': 10070000,
+  'created_at': new Date().getTime(),
   'description': 'More description!',
   'pattern': [ [
     { stitchType: 'p', colour: '#ff0000' },
@@ -446,8 +446,8 @@ const patterns = [{
     { stitchType: 'p', colour: '#ff0000' },
     { stitchType: 'p', colour: '#ff0000' },
     { stitchType: 'p', colour: '#ff0000' },
-    { stitchType: 'p', colour: '#ff0000' },
-    { stitchType: 'p', colour: '#ff0000' },
+    { stitchType: 'k', colour: '#ff0000' },
+    { stitchType: 'k', colour: '#ff0000' },
     { stitchType: 'k', colour: '#ff0000' }
   ]
   ]
