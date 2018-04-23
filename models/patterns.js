@@ -9,6 +9,7 @@ const patternSchema = new Schema({
   description: String,
   created_at: Number,
   pattern: Object,
+  preview: String
 });
 
 module.exports = mongoose.model('pattern', patternSchema);

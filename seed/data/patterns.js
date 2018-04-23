@@ -3,8 +3,9 @@ const patterns = [{
   'difficulty': 'Easy',
   'style': 'Basic',
   'author': 'Amy Edwards',
-  'created_at': new Date().getTime(),
+  'created_at': new Date()-1000000000,
   'description': 'Here is a description of this pattern',
+  'preview' : 'http://placeimg.com/480/480/any',
   'pattern': [
     [
       { stitchType: 'p', colour: '#ff0000' },
@@ -117,7 +118,8 @@ const patterns = [{
   'difficulty': 'Easy',
   'style': 'Basic',
   'author': 'Scott Edwards',
-  'created_at': new Date().getTime(),
+  'preview' : 'http://placeimg.com/480/480/any',
+  'created_at': new Date()-1000000000,
   'description': 'Here is another description of a pattern',
   'pattern': [ [
     { stitchType: 'p', colour: '#ff0000' },
@@ -230,7 +232,8 @@ const patterns = [{
   'difficulty': 'Easy',
   'style': 'wooly',
   'author': 'Scott Edwards',
-  'created_at': new Date().getTime(),
+  'preview' : 'http://placeimg.com/480/480/any',
+  'created_at': new Date()-1000000000,
   'description': 'Some words are here',
   'pattern': [
     [
@@ -344,7 +347,8 @@ const patterns = [{
   'difficulty': 'Easy',
   'style': 'fair isle',
   'author': 'Scott Edwards',
-  'created_at': new Date().getTime(),
+  'preview' : 'http://placeimg.com/480/480/any',
+  'created_at': new Date()-1000000000,
   'description': 'More description!',
   'pattern': [ [
     { stitchType: 'p', colour: '#ff0000' },
