@@ -5,9 +5,9 @@ const router = express.Router();
 
 router.get('/', patternsController.fetchAll);
 
-router.use('/:pattern_id', patternsController.fetchPattern);
+router.put('/:pattern_id', patternsController.updatePattern);
 
-router.put('/:pattern_id/:stitch', patternsController.updateStitch);
+router.use('/:pattern_id', patternsController.fetchPattern);
 
 router.post('/', patternsController.submitPattern)
 

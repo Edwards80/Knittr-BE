@@ -16,10 +16,6 @@ module.exports = {
       });
   },
 
-  updateStitch(req, res) {
-    res.send();
-  },
-
   submitPattern(req, res) {
     const pattern = new Pattern({
       title: req.body.title,
@@ -32,6 +28,13 @@ module.exports = {
     }).save().then(() => {
       res.status(200).send(pattern);
     });
-  }
+  },
 
+  updatePattern(req, res) {
+    const patternId = req.params.pattern_id;
+    Pattern.findByIdAndUpdate(patternId, { $set: { 'pattern': req.body.pattern } })
+      .then(() => {
+        res.status(200)
+      });
+  }
 };
