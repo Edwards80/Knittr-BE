@@ -9,7 +9,10 @@ const patternSchema = new Schema({
   description: String,
   created_at: Number,
   pattern: Object,
-  preview: String
+  preview: {
+    type: String,
+    default: 'https://www.craftsy.com/blog/wp-content/uploads/2013/07/KnittingNeedles.jpg'
+  }
 });
 
 module.exports = mongoose.model('pattern', patternSchema);

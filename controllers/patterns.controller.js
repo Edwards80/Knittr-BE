@@ -36,5 +36,13 @@ module.exports = {
       .then(() => {
         res.status(200)
       });
+  },
+
+  deletePattern(req, res) {
+    const patternId = req.params.pattern_id;
+    Pattern.findByIdAndRemove(patternId)
+      .then(() => {
+        res.status(200)
+      });
   }
 };
