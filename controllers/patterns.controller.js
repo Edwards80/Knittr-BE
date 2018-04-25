@@ -34,7 +34,7 @@ module.exports = {
     const patternId = req.params.pattern_id;
     Pattern.findByIdAndUpdate(patternId, { $set: { 'pattern': req.body.pattern } })
       .then(() => {
-        res.status(200)
+        res.sendStatus(200)
       });
   },
 
@@ -42,7 +42,10 @@ module.exports = {
     const patternId = req.params.pattern_id;
     Pattern.findByIdAndRemove(patternId)
       .then(() => {
-        res.status(200)
+        return res.sendStatus(200)
+      })
+      .catch((err) => {
+        console.log(err)
       });
   }
 };
