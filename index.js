@@ -10,4 +10,8 @@ app.use(cors());
 
 app.use('/api', apiRouter);
 
+app.use((err, req, res, next) => {
+  res.status(err.code).send(err);
+});
+
 module.exports = app;

@@ -8,15 +8,18 @@ module.exports = {
       });
   },
 
-  fetchPattern(req, res) {
+  fetchPattern(req, res, next) {
     const patternId = req.params.pattern_id;
     Pattern.findById(patternId)
       .then(pattern => {
         res.send(pattern);
+      })
+      .catch(err => {
+        return next({ err: err, code: 500 });
       });
   },
 
-  submitPattern(req, res) {
+  submitPattern(req, res, next) {
     const pattern = new Pattern({
       title: req.body.title,
       difficulty: req.body.difficulty,
@@ -25,27 +28,34 @@ module.exports = {
       created_at: new Date().getTime(),
       description: req.body.description,
       pattern: req.body.pattern
-    }).save().then(() => {
-      res.status(200).send(pattern);
-    });
+    }).save()
+      .then(() => {
+        res.status(200).send(pattern);
+      })
+      .catch(err => {
+        return next({ err: err, code: 500 });
+      });
   },
 
-  updatePattern(req, res) {
+  updatePattern(req, res, next) {
     const patternId = req.params.pattern_id;
     Pattern.findByIdAndUpdate(patternId, { $set: { 'pattern': req.body.pattern } })
       .then(() => {
         res.sendStatus(200)
-      });
+      })
+      .catch(err => {
+        return next({ err: err, code: 500 });
+      });;
   },
 
-  deletePattern(req, res) {
+  deletePattern(req, res, next) {
     const patternId = req.params.pattern_id;
     Pattern.findByIdAndRemove(patternId)
       .then(() => {
         return res.sendStatus(200)
       })
-      .catch((err) => {
-        console.log(err)
+      .catch(err => {
+        return next({ err: err, code: 500 });
       });
   }
 };
