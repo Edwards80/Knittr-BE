@@ -9,7 +9,7 @@ const mongoose = require('mongoose');
 
 mongoose.Promise = Promise;
 
-app.listen(port, (err) => {
+app.listen(process.env.PORT || 5000, (err) => {
   if (err) return console.log(err);
   console.log(`Listening on port ${port}`);
 });
