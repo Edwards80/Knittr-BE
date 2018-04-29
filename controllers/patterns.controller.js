@@ -1,10 +1,13 @@
 const Pattern = require('../models/patterns');
 
 module.exports = {
-  fetchAll(req, res) {
+  fetchAll(req, res, next) {
     Pattern.find()
       .then(patterns => {
         res.send(patterns);
+      })
+      .catch((err) => {
+        return next({err: err, code: 500})
       });
   },
 

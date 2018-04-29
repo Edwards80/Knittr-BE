@@ -1,1 +1,1 @@
-require('./seed')('mongodb://localhost:27017/knittr_earlytest');
+require('./seed')('mongodb://localhost:27017/knittr_test');

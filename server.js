@@ -1,6 +1,10 @@
-const DB_URL = require('./config/index.js');
+if (!process.env.NODE_ENV) process.env.NODE_ENV = 'production';
+require('dotenv').config({
+  path: `./.${process.env.NODE_ENV}.env`
+});
+
 const app = require('./index');
-const port = 5000;
+const port = process.env.port || 5000;
 const mongoose = require('mongoose');
 
 mongoose.Promise = Promise;
@@ -10,7 +14,7 @@ app.listen(port, (err) => {
   console.log(`Listening on port ${port}`);
 });
 
-mongoose.connect(DB_URL, (err) => {
+mongoose.connect(process.env.DB_URI, (err) => {
   if (err) console.log(err);
-  else console.log(`Connected to ${DB_URL}`);
+  else console.log(`Connected to ${process.env.DB_URI}`);
 });

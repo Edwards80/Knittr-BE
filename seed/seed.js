@@ -7,7 +7,7 @@ const patternsData = require('./data/patterns');
 // dburl dev or test
 function seedDB(dbUrl) {
 
-
+  console.log(dbUrl)
   return mongoose.connect(dbUrl)
     .then(() => {
       mongoose.connection.db.dropDatabase();
